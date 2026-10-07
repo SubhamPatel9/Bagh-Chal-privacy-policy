@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Bagh Chal: Tigers &amp; Goats</title>
+    <style>
+        :root {
+            --primary: #8b4513;
+            --primary-dark: #5c2d0c;
+            --accent: #d4af37;
+            --bg-color: #fcfbf9;
+            --surface-color: #ffffff;
+            --text-main: #2d241e;
+            --text-muted: #6b5b52;
+            --border-color: #e8ded4;
+            --tag-bg: #f4ece4;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #d4af37;
+                --primary-dark: #b89728;
+                --accent: #e5c158;
+                --bg-color: #191410;
+                --surface-color: #241d17;
+                --text-main: #f5efe6;
+                --text-muted: #b8a89c;
+                --border-color: #3d3229;
+                --tag-bg: #2f251d;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-main);
+            background-color: var(--bg-color);
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            background: var(--surface-color);
+            padding: 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+            border: 1px solid var(--border-color);
+        }
+
+        .header {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .app-badge {
+            display: inline-block;
+            background: var(--tag-bg);
+            color: var(--primary);
+            font-size: 0.85rem;
+            font-weight: 600;
+            padding: 0.35rem 0.85rem;
+            border-radius: 20px;
+            margin-bottom: 0.75rem;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            line-height: 1.25;
+        }
+
+        .meta {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            color: var(--primary);
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.35rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-main);
+        }
+
+        ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1.25rem;
+            color: var(--text-main);
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight-box {
+            background-color: var(--tag-bg);
+            border-left: 4px solid var(--accent);
+            padding: 1.2rem 1.5rem;
+            border-radius: 0 8px 8px 0;
+            margin: 1.5rem 0;
+        }
+
+        .highlight-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        a:hover {
+            color: var(--accent);
+        }
+
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem 0.5rem;
+            }
+            .container {
+                padding: 1.5rem;
+                border-radius: 12px;
+            }
+            h1 {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header class="header">
+        <span class="app-badge">Official Policy</span>
+        <h1>Privacy Policy</h1>
+        <p class="meta"><strong>App:</strong> Bagh Chal: Tigers &amp; Goats &bull; <strong>Effective Date:</strong> August 8, 2026</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>1. Introduction</h2>
+            <p>Welcome to <strong>Bagh Chal: Tigers &amp; Goats</strong> (the "Application"), developed and published by <strong>Orinexa</strong> ("we", "our", or "us"). We are committed to protecting your privacy and providing a safe, enjoyable gaming experience.</p>
+            <p>This Privacy Policy explains how our mobile application handles user information, device permissions, and advertising services in compliance with the Google Play Developer Program Policies and international privacy regulations (including GDPR and CCPA).</p>
+        </section>
+
+        <section>
+            <h2>2. Information We Collect and How We Use It</h2>
+            <div class="highlight-box">
+                <p><strong>Zero Account Registration:</strong> We do not require you to create an account, sign in, or provide any personal identification information (such as your name, email address, physical address, or phone number) to play the game.</p>
+            </div>
+            
+            <h3>A. Local On-Device Data Storage</h3>
+            <p>The Application saves game progress and user preferences locally on your device using Android local storage mechanisms (SharedPreferences / SQLite):</p>
+            <ul>
+                <li><strong>Game State &amp; Progress:</strong> Active board layouts, turn history, and pause states so you can resume interrupted matches.</li>
+                <li><strong>Game Statistics:</strong> Win/loss records, total matches played, moves played, and goats captured.</li>
+                <li><strong>User Preferences:</strong> Selected difficulty levels, sound effects volume, haptic feedback toggles, reduce motion setting, and legal moves display.</li>
+                <li><strong>Free Hints Counter:</strong> Remaining hints balance to manage hints during gameplay.</li>
+            </ul>
+            <p><em>Note: This data is stored strictly on your local device and is never uploaded, synced, or sold to external servers.</em></p>
+
+            <h3>B. Automatically Collected Information &amp; Diagnostics</h3>
+            <p>Like most mobile applications, temporary system-level diagnostic metrics (such as crash logs, OS version, and device manufacturer) may be processed automatically by your operating system or Google Play Services to ensure application stability and performance.</p>
+        </section>
+
+        <section>
+            <h2>3. Third-Party Services &amp; Advertising</h2>
+            <p>To support ongoing development and offer the game for free, the Application integrates third-party advertising services:</p>
+            <ul>
+                <li><strong>Google AdMob (Google Play Services):</strong>
+                    We use Google AdMob to display banner ads, interstitial transition ads, and rewarded video ads (e.g., to earn additional hints). Google AdMob may collect and process pseudonymous identifiers, device identifiers (such as Android Advertising ID / GAID), and diagnostic data to deliver relevant ads and detect fraud.
+                    <br>
+                    Review Google's Privacy &amp; Terms: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a> and <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener noreferrer">Google AdMob Policies</a>.
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Device Permissions</h2>
+            <p>The Application requests only the minimal permissions necessary for core game features and ad display:</p>
+            <ul>
+                <li><strong>INTERNET &amp; ACCESS_NETWORK_STATE:</strong> Required by Google Mobile Ads SDK to fetch and display ads when connected to the internet.</li>
+                <li><strong>VIBRATE:</strong> Used solely to provide optional haptic feedback during piece movement and capture interactions. This can be toggled off at any time in the Settings menu.</li>
+            </ul>
+            <p>The Application does <strong>NOT</strong> request access to your contacts, camera, microphone, photos, location, or file system.</p>
+        </section>
+
+        <section>
+            <h2>5. Children's Privacy (COPPA &amp; GDPR-K)</h2>
+            <p>Our Application is designed for general audiences and all ages. We do not knowingly collect or solicit personal information from children under the age of 13 (or 16 in the European Union). If you believe that a child has provided us with personal information, please contact us immediately, and we will take prompt steps to delete such data.</p>
+        </section>
+
+        <section>
+            <h2>6. Data Retention &amp; Deletion Rights</h2>
+            <p>Because all gameplay data is stored strictly on your local device:</p>
+            <ul>
+                <li>You can reset or erase all game data at any time through the in-app <strong>Settings &gt; Reset Statistics</strong> option or via Android <strong>Settings &gt; Apps &gt; Bagh Chal &gt; Storage &gt; Clear Storage</strong>.</li>
+                <li>Uninstalling the Application completely and permanently removes all stored preferences and match statistics from your device.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>7. Security</h2>
+            <p>We value your trust in using our Application. We do not maintain remote user databases or collect sensitive personal credentials. All local application data is protected by the standard security sandbox provided by the Android Operating System.</p>
+        </section>
+
+        <section>
+            <h2>8. Changes to This Privacy Policy</h2>
+            <p>We may update our Privacy Policy periodically to reflect changes in our practices or applicable legal regulations. Any updates will be posted on this page with a revised "Effective Date" at the top.</p>
+        </section>
+
+        <section>
+            <h2>9. Contact Us</h2>
+            <p>If you have any questions, feedback, or concerns regarding this Privacy Policy or our data practices, please contact us at:</p>
+            <ul>
+                <li><strong>Developer / Company:</strong> Orinexa</li>
+                <li><strong>Email:</strong> <a href="mailto:support@orinexa.co.in">support@orinexa.co.in</a></li>
+                <li><strong>Website:</strong> <a href="https://orinexa.co.in" target="_blank" rel="noopener noreferrer">https://orinexa.co.in</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Orinexa. All rights reserved.</p>
+        <p>Bagh Chal: Tigers &amp; Goats strategy board game.</p>
+    </footer>
+</div>
+
+</body>
+</html>
